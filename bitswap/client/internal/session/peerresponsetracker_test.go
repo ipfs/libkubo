@@ -58,6 +58,7 @@ func TestPeerResponseTrackerProbabilityOneKnownOneUnknownPeer(t *testing.T) {
 	prt := newPeerResponseTracker()
 
 	prt.receivedBlockFrom(peers[0])
+	prt.receivedBlockFrom(peers[0])
 
 	chooseFirst := 0
 	chooseSecond := 0
