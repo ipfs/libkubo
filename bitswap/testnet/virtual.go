@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	bsmsg "github.com/ipfs/go-bitswap/message"
-	bsnet "github.com/ipfs/go-bitswap/network"
+	bsmsg "github.com/ipfs/libkubo/bitswap/message"
+	bsnet "github.com/ipfs/libkubo/bitswap/network"
 
 	cid "github.com/ipfs/go-cid"
 	delay "github.com/ipfs/go-ipfs-delay"

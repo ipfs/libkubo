@@ -3,8 +3,8 @@ package wantlist
 import (
 	"testing"
 
-	pb "github.com/ipfs/go-bitswap/message/pb"
 	cid "github.com/ipfs/go-cid"
+	pb "github.com/ipfs/libkubo/bitswap/message/pb"
 	"github.com/stretchr/testify/require"
 )
 

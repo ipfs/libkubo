@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-bitswap/internal/testutil"
 	cid "github.com/ipfs/go-cid"
 	"github.com/ipfs/go-metrics-interface"
+	"github.com/ipfs/libkubo/bitswap/internal/testutil"
 
 	blocks "github.com/ipfs/go-block-format"
 	ds "github.com/ipfs/go-datastore"

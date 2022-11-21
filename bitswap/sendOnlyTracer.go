@@ -1,8 +1,8 @@
 package bitswap
 
 import (
-	"github.com/ipfs/go-bitswap/message"
-	"github.com/ipfs/go-bitswap/tracer"
+	"github.com/ipfs/libkubo/bitswap/message"
+	"github.com/ipfs/libkubo/bitswap/tracer"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

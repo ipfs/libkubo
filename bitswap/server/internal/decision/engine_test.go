@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/ipfs/go-bitswap/internal/testutil"
-	message "github.com/ipfs/go-bitswap/message"
-	pb "github.com/ipfs/go-bitswap/message/pb"
+	"github.com/ipfs/libkubo/bitswap/internal/testutil"
+	message "github.com/ipfs/libkubo/bitswap/message"
+	pb "github.com/ipfs/libkubo/bitswap/message/pb"
 
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"

@@ -9,11 +9,6 @@ import (
 
 	"github.com/google/uuid"
 
-	wl "github.com/ipfs/go-bitswap/client/wantlist"
-	"github.com/ipfs/go-bitswap/internal/defaults"
-	bsmsg "github.com/ipfs/go-bitswap/message"
-	pb "github.com/ipfs/go-bitswap/message/pb"
-	bmetrics "github.com/ipfs/go-bitswap/metrics"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	bstore "github.com/ipfs/go-ipfs-blockstore"
@@ -22,6 +17,11 @@ import (
 	"github.com/ipfs/go-peertaskqueue"
 	"github.com/ipfs/go-peertaskqueue/peertask"
 	"github.com/ipfs/go-peertaskqueue/peertracker"
+	wl "github.com/ipfs/libkubo/bitswap/client/wantlist"
+	"github.com/ipfs/libkubo/bitswap/internal/defaults"
+	bsmsg "github.com/ipfs/libkubo/bitswap/message"
+	pb "github.com/ipfs/libkubo/bitswap/message/pb"
+	bmetrics "github.com/ipfs/libkubo/bitswap/metrics"
 	process "github.com/jbenet/goprocess"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

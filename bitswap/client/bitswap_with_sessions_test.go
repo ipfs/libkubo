@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-bitswap"
-	"github.com/ipfs/go-bitswap/client/internal/session"
-	testinstance "github.com/ipfs/go-bitswap/testinstance"
-	tn "github.com/ipfs/go-bitswap/testnet"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
 	delay "github.com/ipfs/go-ipfs-delay"
 	mockrouting "github.com/ipfs/go-ipfs-routing/mock"
+	"github.com/ipfs/libkubo/bitswap"
+	"github.com/ipfs/libkubo/bitswap/client/internal/session"
+	testinstance "github.com/ipfs/libkubo/bitswap/testinstance"
+	tn "github.com/ipfs/libkubo/bitswap/testnet"
 	tu "github.com/libp2p/go-libp2p-testing/etc"
 )
 

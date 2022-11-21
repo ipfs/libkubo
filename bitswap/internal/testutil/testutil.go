@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/ipfs/go-bitswap/client/wantlist"
-	bsmsg "github.com/ipfs/go-bitswap/message"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
+	"github.com/ipfs/libkubo/bitswap/client/wantlist"
+	bsmsg "github.com/ipfs/libkubo/bitswap/message"
 	peer "github.com/libp2p/go-libp2p/core/peer"
 )
 

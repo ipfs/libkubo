@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	bsbpm "github.com/ipfs/go-bitswap/client/internal/blockpresencemanager"
-	notifications "github.com/ipfs/go-bitswap/client/internal/notifications"
-	bspm "github.com/ipfs/go-bitswap/client/internal/peermanager"
-	bssim "github.com/ipfs/go-bitswap/client/internal/sessioninterestmanager"
-	bsspm "github.com/ipfs/go-bitswap/client/internal/sessionpeermanager"
-	"github.com/ipfs/go-bitswap/internal/testutil"
 	cid "github.com/ipfs/go-cid"
 	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
 	delay "github.com/ipfs/go-ipfs-delay"
+	bsbpm "github.com/ipfs/libkubo/bitswap/client/internal/blockpresencemanager"
+	notifications "github.com/ipfs/libkubo/bitswap/client/internal/notifications"
+	bspm "github.com/ipfs/libkubo/bitswap/client/internal/peermanager"
+	bssim "github.com/ipfs/libkubo/bitswap/client/internal/sessioninterestmanager"
+	bsspm "github.com/ipfs/libkubo/bitswap/client/internal/sessionpeermanager"
+	"github.com/ipfs/libkubo/bitswap/internal/testutil"
 	peer "github.com/libp2p/go-libp2p/core/peer"
 )
 
