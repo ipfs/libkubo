@@ -1,4 +1,6 @@
-module github.com/ipfs/go-bitswap
+module github.com/ipfs/libkubo
+
+go 1.18
 
 require (
 	github.com/benbjohnson/clock v1.3.0
@@ -26,7 +28,7 @@ require (
 	github.com/libp2p/go-msgio v0.2.0
 	github.com/multiformats/go-multiaddr v0.7.0
 	github.com/multiformats/go-multistream v0.3.3
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/otel v1.7.0
 	go.opentelemetry.io/otel/trace v1.7.0
 	go.uber.org/multierr v1.8.0
@@ -83,5 +85,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
-
-go 1.18
